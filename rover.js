@@ -49,7 +49,7 @@ function isPositionValid(position0, position1){
   }
 }
 
-//functions to move rover forward and back. Globe perspective and obstacle check included.
+//functions to move rover forward and back. Axis has been flipped so Rover starts from top. Globe perspective and obstacle check included.
 function goForward(rover) {
   switch (rover.direction) {
     case 'N':
